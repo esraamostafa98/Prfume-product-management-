@@ -1,0 +1,18 @@
+thead {
+  color: #f60f86;
+}
+.card-header {
+  background-color: #faebf2;
+}
+
+.btn {
+  color: white;
+  background-color: #f60f86;
+}
+pm-star {
+  color: #ecc100;
+}
+td a {
+  color: #f60f86;
+  text-decoration: none;
+}

@@ -1,0 +1,15 @@
+.card {
+  margin-top: 20px;
+  font-weight: 500;
+}
+.card-header,
+.card-footer {
+  background-color: #faebf2;
+}
+.Fonti {
+  color: #a8a8a8;
+  font-weight: 300;
+}
+pm-star {
+  color: #ecc100;
+}
