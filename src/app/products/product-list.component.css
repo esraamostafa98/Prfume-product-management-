@@ -8,6 +8,7 @@ thead {
 .btn {
   color: white;
   background-color: #f60f86;
+  border: none;
 }
 pm-star {
   color: #ecc100;

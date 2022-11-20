@@ -80,7 +80,7 @@
             />
           </div>
           <button
-            class="col-md-1 btn btn-outline-warning btn-sm"
+            class="col-md-1 btn btn-outline-danger btn-sm"
             type="button"
             title="Delete this search tag"
             (click)="deleteTag(i)"
@@ -127,7 +127,7 @@
         <div class="offset-md-2 col-md-4">
           <button
             class="btn btn-primary mr-3"
-            style="width: 80px"
+            style="width: 80px; margin: 5px"
             type="submit"
             [title]="
               productForm.valid
@@ -140,7 +140,7 @@
           </button>
           <button
             class="btn btn-outline-secondary mr-3"
-            style="width: 80px"
+            style="width: 80px; margin: 5px"
             type="button"
             title="Cancel your edits"
             [routerLink]="['/products']"
@@ -148,8 +148,8 @@
             Cancel
           </button>
           <button
-            class="btn btn-outline-warning"
-            style="width: 80px"
+            class="btn btn-outline-danger"
+            style="width: 80px; margin: 5px"
             type="button"
             title="Delete this product"
             (click)="deleteProduct()"

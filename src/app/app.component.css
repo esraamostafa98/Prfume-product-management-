@@ -4,3 +4,6 @@
 .nav-link {
   color: #f60f86;
 }
+.nav-pills {
+  --bs-nav-pills-link-active-bg: #f60f86;
+}
