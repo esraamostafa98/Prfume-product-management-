@@ -1,5 +1,6 @@
 <div class="card">
   <div class="card-header">{{ PageTitle }}</div>
+  Filter
   <div class="card-body">
     <div class="row">
       <div class="col-md-2">Filter by:</div>
@@ -40,7 +41,7 @@
               />
             </td>
             <td>
-              <a [routerLink]="['/products', product.productId]">
+              <a [routerLink]="['/products', product.id]">
                 {{ product.productName }}
               </a>
             </td>
@@ -52,6 +53,14 @@
                 [rating]="product.starRating"
                 (ratingClicked)="onRatingClicked($event)"
               ></pm-star>
+            </td>
+            <td>
+              <button
+                class="btn btn-outline-primary btn-sm"
+                [routerLink]="['/products', product.id, 'edit']"
+              >
+                Edit
+              </button>
             </td>
           </tr>
         </tbody>
